@@ -18,3 +18,18 @@ Para instalar as bibliotecas necessárias, execute o seguinte comando:
 
 ```bash
 pip install shodan colorama
+
+Chave da API do Shodan - Você precisará de uma chave de API do Shodan para usar o script. Se você ainda não tem, pode obter uma chave gratuita aqui.
+https://www.shodan.io/
+
+Como Usar
+Obtenha sua chave de API do Shodan:
+
+Acesse o site do Shodan e crie uma conta.
+
+Após criar a conta, vá até Dashboard, onde você encontrará a chave da API.
+
+Configure o Script:
+
+Abra o script scanNightmare.py e substitua a chave da API na variável SHODAN_API_KEY:
+
