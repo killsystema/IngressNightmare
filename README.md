@@ -24,10 +24,9 @@ Para instalar as dependências, utilize o `pip`:
 pip install shodan colorama
 ```
 
-# Configuração
-Obter a API Key do Shodan:
+# Obter a API Key do Shodan:
 
-# Crie uma conta no Shodan e obtenha a sua API Key.
+Crie uma conta no Shodan e obtenha a sua API Key.
 (https://www.shodan.io/)
 
 # Substitua a chave da variável SHODAN_API_KEY no script com sua chave API.
