@@ -1,6 +1,7 @@
 # Shodan Vulnerability Scanner
 
-Este script utiliza a API do **Shodan** para procurar por alvos vulneráveis com base em um filtro de país e realizar um **teste de vulnerabilidade** (simulado). Caso um alvo vulnerável seja encontrado, ele será salvo em um arquivo de texto para posterior análise.
+Este script utiliza a API do **Shodan** para procurar por Vulnerabilidades recentes (CVE-2025-1097, CVE-2025-1098, CVE-2025-24514, CVE-2025-1974) descobertas em seu controlador de admissão podem levar ao acesso não autorizado a todos os segredos em namespaces e potencialmente permitir a aquisição completa do cluster. 
+
 
 ## Funcionalidades
 
