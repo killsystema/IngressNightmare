@@ -65,3 +65,5 @@ Os alvos vulneráveis serão salvos no arquivo alvos_vulneraveis.txt:
 ``` 
 192.168.1.2:8443 - Admission Webhook: https://192.168.1.2:8443/admission
 ```
+# Pesquisa no Link
+(https://github.com/hakaioffsec/IngressNightmare-PoC/) 
