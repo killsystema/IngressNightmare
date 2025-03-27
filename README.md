@@ -13,9 +13,10 @@ Python 3.x
 
 Bibliotecas Python:
 
+```
 shodan
-
 colorama
+``` 
 
 Você pode instalar as dependências usando o pip:
 
