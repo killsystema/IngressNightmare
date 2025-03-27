@@ -7,7 +7,7 @@ from colorama import Fore, init
 init(autoreset=True)
 
 # Substitua pela sua API Key do Shodan
-SHODAN_API_KEY = "API Key do Shodan"
+SHODAN_API_KEY = "SUA_CHAVE_API_AQUI"
 
 # Consultas para encontrar possíveis alvos (filtro de país)
 def generate_query(country):
