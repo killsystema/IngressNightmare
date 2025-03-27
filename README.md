@@ -37,10 +37,10 @@ Clone este repositório ou baixe o arquivo scanNightmare.py.
 Execute o script, passando o país como argumento:
 
 ```python3 scanNightmare.py "Brazil" ```
+
 O script fará a busca no Shodan usando o filtro de país e testará os alvos encontrados para possíveis vulnerabilidades.
 
 Exemplo de Saída:
-
 
 ```
 [+] Procurando por: ssl:"Issuer: O=nil1" port:8443 country:"Brazil"
