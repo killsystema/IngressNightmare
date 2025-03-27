@@ -35,11 +35,13 @@ Obter a API Key do Shodan:
 
 Clone este repositório ou baixe o arquivo scanNightmare.py.
 
-``` git clone https://github.com/killsystema/IngressNightmare.git ```
+``` git clone https://github.com/killsystema/IngressNightmare.git
+```
 
 # Execute o script, passando o país como argumento:
 
-```python3 scanNightmare.py "Brazil" ```
+```python3 scanNightmare.py "Brazil" 
+```
 
 # O script fará a busca no Shodan usando o filtro de país e testará os alvos encontrados para possíveis vulnerabilidades.
 
