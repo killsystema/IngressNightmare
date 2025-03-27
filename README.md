@@ -1,47 +1,49 @@
-Shodan Vulnerability Scanner
-Este script utiliza a API do Shodan para procurar por alvos vulneráveis com base em um filtro de país e realizar um teste de vulnerabilidade (simulado). Caso um alvo vulnerável seja encontrado, ele será salvo em um arquivo de texto para posterior análise.
+# Shodan Vulnerability Scanner
 
-Funcionalidades
-Busca de Alvos: Realiza uma busca no Shodan por dispositivos/servidores que atendem a um filtro baseado no país e outras condições.
+Este script utiliza a API do **Shodan** para procurar por alvos vulneráveis com base em um filtro de país e realizar um **teste de vulnerabilidade** (simulado). Caso um alvo vulnerável seja encontrado, ele será salvo em um arquivo de texto para posterior análise.
 
-Testes de Vulnerabilidade: Testa possíveis vulnerabilidades nos alvos encontrados (este teste é simulado no momento e pode ser substituído por uma lógica real).
+## Funcionalidades
 
-Armazenamento de Alvos Vulneráveis: Alvos que se mostram vulneráveis são armazenados em um arquivo de texto.
+- **Busca de Alvos**: Realiza uma busca no Shodan por dispositivos/servidores que atendem a um filtro baseado no país e outras condições.
+- **Testes de Vulnerabilidade**: Testa possíveis vulnerabilidades nos alvos encontrados (este teste é simulado no momento e pode ser substituído por uma lógica real).
+- **Armazenamento de Alvos Vulneráveis**: Alvos que se mostram vulneráveis são armazenados em um arquivo de texto.
 
-Requisitos
-Python 3.x
+## Requisitos
 
-Bibliotecas Python:
+- **Python 3.x**
+- Bibliotecas Python:
+  - `shodan`
+  - `colorama`
 
-```
-shodan
-colorama
-``` 
+### Instalar Dependências
 
-Você pode instalar as dependências usando o pip:
+Para instalar as dependências, utilize o `pip`:
 
-```
+```bash
 pip install shodan colorama
 ```
-Configuração
+
+# Configuração
 Obter a API Key do Shodan:
 
-Crie uma conta no Shodan e obtenha a sua API Key.
+# Crie uma conta no Shodan e obtenha a sua API Key.
+(https://www.shodan.io/)
 
-Substitua a chave da variável SHODAN_API_KEY no script com sua chave API.
+# Substitua a chave da variável SHODAN_API_KEY no script com sua chave API.
 
-Como Usar
+# Como Usar
+
 Clone este repositório ou baixe o arquivo scanNightmare.py.
 
 (git clone https://github.com/killsystema/IngressNightmare.git)
 
-Execute o script, passando o país como argumento:
+# Execute o script, passando o país como argumento:
 
 ```python3 scanNightmare.py "Brazil" ```
 
-O script fará a busca no Shodan usando o filtro de país e testará os alvos encontrados para possíveis vulnerabilidades.
+# O script fará a busca no Shodan usando o filtro de país e testará os alvos encontrados para possíveis vulnerabilidades.
 
-Exemplo de Saída:
+# Exemplo de Saída:
 
 ```
 [+] Procurando por: ssl:"Issuer: O=nil1" port:8443 country:"Brazil"
@@ -53,7 +55,7 @@ Exemplo de Saída:
 [+] Alvo vulnerável salvo: 192.168.1.2:8443 - Admission Webhook: https://192.168.1.2:8443/admission
 ```
 
-Arquivo de Saída
+# Arquivo de Saída
 Os alvos vulneráveis serão salvos no arquivo alvos_vulneraveis.txt:
 
 ``` 
