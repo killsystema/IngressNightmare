@@ -19,8 +19,7 @@ Para instalar as bibliotecas necessárias, execute o seguinte comando:
 ```bash
 pip install shodan colorama
 
-Chave da API do Shodan - Você precisará de uma chave de API do Shodan para usar o script. Se você ainda não tem, pode obter uma chave gratuita aqui.
-https://www.shodan.io/
+Chave da API do Shodan - Você precisará de uma chave de API do Shodan para usar o script. Se você ainda não tem, pode obter uma chave gratuita aqui. https://www.shodan.io/
 
 Como Usar
 Obtenha sua chave de API do Shodan:
